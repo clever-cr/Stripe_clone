@@ -945,6 +945,11 @@ h1{
   color: rgb(10 37 64 / var(--tw-text-opacity));
 }
 
+.text-red-200 {
+  --tw-text-opacity: 1;
+  color: rgb(254 202 202 / var(--tw-text-opacity));
+}
+
 .opacity-60 {
   opacity: 0.6;
 }
