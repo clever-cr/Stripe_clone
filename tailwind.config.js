@@ -37,8 +37,14 @@ module.exports = {
      },
      width:{
       big:"33.1875rem"
-     }
+     },
+     borderRadius:{
+      "4xl":"36px",
+     },
+     boxShadow: {
+      'el': '0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%), inset 0 -2px 6px 0 rgb(10 37 64 / 35%)'
     },
+        },
   },
   plugins: [
     require('tailwind-clip-path'),
