@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./build/tailwind.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Stripe</title>
+  </head>
+  <body class="font-arial">
+    <div
+      class="bg-gradient-to-r from-yellow via-pink to-indigo h-screen clip-path-clip absolute z-0 top-0 w-full"
+    ></div>
+    <div
+      class="px-10 flex items-center justify-between lg:px-52 py-6 text-white font-bold relative z-20"
+    >
+      <h2 class="text-2xl">Stripe</h2>
+      <div class="hidden lg:block space-x-6">
+        <a href="#">Products</a>
+        <a href="#">Solutions</a>
+        <a href="#">Developers</a>
+        <a href="#">Resources</a>
+        <a href="#">Pricing</a>
+      </div>
+
+      <div>
+        <div class="bg-white bg-opacity-20 py-3 px-4 rounded-full lg:hidden">
+          <svg width="16" height="10" viewBox="0 0 16 10">
+            <g fill="white" fill-rule="evenodd">
+              <rect y="8" width="16" height="2" rx="1"></rect>
+              <rect y="4" width="16" height="2" rx="1"></rect>
+              <rect width="16" height="2" rx="1"></rect>
+            </g>
+          </svg>
+        </div>
+
+        <button
+          class="bg-white bg-opacity-20 px-5 py-1 rounded-2xl z-20 hidden lg:block"
+        >
+          Sign In >
+        </button>
+      </div>
+    </div>
+    <div class="mt-36 relative z-20 flex justify-between">
+      <div class="px-10 flex flex-col space-y-8 lg:px-52">
+        <h2 class="font-bold text-5xl lg:text-8xl max-w-3xl text-gray-800">
+          Financial infrastructure for the internet
+        </h2>
+        <p class="max-w-2xl text-light text-xl">
+          Millions of companies of all sizes—from startups to Fortune 500s—use
+          Stripe's software and APIs to accept payments, send payouts, and
+          manage their businesses online.
+        </p>
+        <div class="space-x-2">
+          <button class="bg-gray-800 text-white py-1 px-3 rounded-xl">
+            Start now >
+          </button>
+          <a class="text-gray-800" href="#">contact sales ></a>
+        </div>
+      </div>
+      <div
+        class="bg-white bg-opacity-50 py-6 rounded-lg w-1/3 shadow-md hidden lg:block"
+      >
+        <div class="ml-52">
+          <img src="img/today.png" alt="pic" />
+          <img src="img/reports.png" alt="pic" />
+        </div>
+      </div>
+    </div>
+    <figure
+      class="hidden lg:block w-66 h-133 shadow-el rounded-4xl p-2 bg-gray-100 top-60 right-72 absolute z-20"
+    >
+      <img src="img/phonepay.png" alt="pic" class="rounded-4xl" />
+    </figure>
+
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-14 mt-24 lg:mt-44 lg:px-52">
+      <img src="img/logo1.svg" alt="logo" />
+      <img src="img/logo2.svg" alt="logo" />
+
+      <img src="img/logo3.svg" alt="logo" />
+      <img src="img/logo4.svg" alt="logo" />
+      <img src="img/logo5.svg" alt="logo" />
+      <img src="img/logo6.svg" alt="logo" />
+      <img src="img/logo7.svg" alt="logo" />
+      <img src="img/logo8.svg" alt="logo" />
+    </div>
+    <div class="px-10 lg:px-52 py-28 mt-24 space-y-8 bg-gray-50">
+      <h2 class="text-primary font-bold text-lg">Unified platform</h2>
+      <h2 class="font-bold text-4xl max-w-md text-gray-800">
+        A fully integrated suite of payments products
+      </h2>
+      <div class="flex flex-col space-y-4 lg:flex-row lg:space-x-8">
+        <h2 class="max-w-md text-light text-lg">
+          We bring together everything that's required to build websites and
+          apps that accept payments and send payouts globally. Stripe's products
+          power payments for
+          <a class="text-primary font-bold">online and in-person retailers</a
+          >,<a class="text-primary font-bold">subscriptions businesses</a> ,<a
+            class="text-primary font-bold"
+            >software platforms and marketplaces</a
+          >
+          , and everything in between.
+        </h2>
+        <h2 class="max-w-md text-light text-lg">
+          We also help companies
+          <a class="text-primary font-bold">beat fraud</a>,
+          <a class="text-primary font-bold">send invoices</a>,
+          <a class="text-primary font-bold">issue virtual and physical cards</a
+          >,<a class="text-primary font-bold"> reduce friction at checkout</a> ,
+          <a class="text-primary font-bold">get financing</a>,<a
+            class="text-primary font-bold"
+            >manage business spend</a
+          >
+          , and much more.
+        </h2>
+      </div>
+
+      <div
+        class="grid grid-rows-row grid-cols-medium gap-8 py-4 justify-center"
+      >
+        <button
+          class="bg-primary h-8 w-3/12 text-white rounded-2xl font-bold col-span-2"
+        >
+          Start with payment >
+        </button>
+
+        <div class="h-full row-span-3">
+          <img src="img/phone.png" alt="phonepay" />
+        </div>
+        <div class="h-40">
+          <img src="img/visa.png" alt="card" />
+        </div>
+        <div class="h-96 row-span-2">
+          <img src="img/slack.png" alt="slack" />
+        </div>
+        <div class="h-96 row-span-2">
+          <img src="img/phone2.png" alt="phone" />
+        </div>
+        <div class="h-96 col-span-2">
+          <img src="img/dashboard.png" alt="dashboard" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative before:content-[''] before:h-hsm lg:before:h-hxs before:w-full before:bg-dark before:inset-0 before:z-0 before:absolute before:-translate-y-52 before:transform before:-skew-y-6"
+    >
+      <div class="flex flex-col px-10 lg:flex-row lg:px-52 relative z-10">
+        <div class="space-y-6">
+          <h2 class="text-secondary font-bold">Designed for developers</h2>
+          <h2 class="font-bold text-5xl max-w-2xl text-white">
+            The world's most powerful and easy-to-use APIs
+          </h2>
+
+          <h2 class="max-w-md text-bright">
+            We agonize over the right abstractions so your teams don't need to
+            stitch together disparate systems or spend months integrating
+            payments functionality.
+          </h2>
+
+          <button
+            class="bg-secondary px-4 py-1 text-gray-800 rounded-2xl font-bold"
+          >
+            Read the docs >
+          </button>
+          <div class="flex flex-col lg:flex-row items-center space-x-8">
+            <div class="space-y-2">
+              <img src="img/icon1.svg" alt="icon" />
+              <h2 class="text-white font-bold">Tools for every stack</h2>
+              <h2 class="text-bright max-w-sm">
+                We offer client and server libraries in everything from React
+                and PHP to .NET and iOS.
+              </h2>
+              <a class="text-secondary">See libraries ></a>
+            </div>
+            <div class="space-y-2">
+              <img src="img/icon2.svg" alt="icon" />
+              <h2 class="text-white font-bold">Prebuilt integrations</h2>
+              <h2 class="text-bright max-w-sm">
+                Use integrations for systems like Shopify, WooCommerce,
+                NetSuite, and more.
+              </h2>
+              <a class="text-secondary">Explore partners ></a>
+            </div>
+          </div>
+        </div>
+        <img class="h-medium w-big p-8" src="img/input.png" alt="input" />
+      </div>
+      
+    </div>
+    <div class="mt-52 px-10 lg:px-52 space-y-10">
+      <h2 class="text-primary font-bold text-base">Why Stripe</h2>
+      <h2 class="text-dark font-bold text-4xl max-w-3xl">
+        A technology-first approach to payments and finance
+      </h2>
+      <div class="grid lg:grid-cols-4 gap-6">
+        <div class="space-y-2">
+          <img src="img/icon3.svg" alt="icon" />
+          <h2 class="text-dark font-bold">Close to the metal</h2>
+          <h2 class="text-light text-sm max-w-xs">
+            From direct integrations with card networks and banks to checkout
+            flows in the browser, we operate on and optimize at every level of
+            the financial stack.
+          </h2>
+        </div>
+        <div class="space-y-2">
+          <img src="img/icon3.svg" alt="icon" />
+          <h2 class="text-dark font-bold">Close to the metal</h2>
+          <h2 class="text-light text-sm max-w-xs">
+            From direct integrations with card networks and banks to checkout
+            flows in the browser, we operate on and optimize at every level of
+            the financial stack.
+          </h2>
+        </div>
+        <div class="space-y-2">
+          <img src="img/icon3.svg" alt="icon" />
+          <h2 class="text-dark font-bold">Close to the metal</h2>
+          <h2 class="text-light text-sm max-w-xs">
+            From direct integrations with card networks and banks to checkout
+            flows in the browser, we operate on and optimize at every level of
+            the financial stack.
+          </h2>
+        </div>
+        <div class="space-y-2">
+          <img src="img/icon3.svg" alt="icon" />
+          <h2 class="text-dark font-bold">Close to the metal</h2>
+          <h2 class="text-light text-sm max-w-xs">
+            From direct integrations with card networks and banks to checkout
+            flows in the browser, we operate on and optimize at every level of
+            the financial stack.
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-dark h-hxs lg:h-screen py-24 clip-path-half absolute z-0 w-full"
+    ></div>
+    <div class="px-10 mt-48 relative z-10 lg:px-52">
+      <div class="space-y-8">
+        <h2 class="text-secondary font-bold text-base">Global scale</h2>
+        <h2 class="text-4xl font-bold max-w-md text-white">
+          The backbone for internet business
+        </h2>
+        <h2 class="text-white opacity-60 max-w-md">
+          For ambitious companies around the world, Stripe makes moving money as
+          simple, borderless, and programmable as the rest of the internet. Our
+          teams are based in dozens of offices around the world and we process
+          hundreds of billions of dollars each year for
+          <a class="text-secondary font-bold">startups to Fortune 500s.</a>
+        </h2>
+      </div>
+
+      <div class="grid lg:grid-cols-4 mt-6">
+        <div class="space-y-2">
+          <h2 class="font-bold text-4xl text-white font-sans">250M+</h2>
+          <h2 class="text-white opacity-50 max-w-md font-semibold">
+            API requests per day,peaking at 13,000 requests a second
+          </h2>
+        </div>
+        <div class="space-y-2">
+          <h2 class="font-bold text-4xl text-white font-sans">90%</h2>
+          <h2 class="text-white opacity-50 max-w-md font-semibold">
+            API requests per day,peaking at 13,000 requests a second
+          </h2>
+        </div>
+        <div>
+          <h2 class="font-bold text-4xl text-white font-sans">135+</h2>
+          <h2 class="text-white opacity-50 max-w-md font-semibold">
+            API requests per day,peaking at 13,000 requests a second
+          </h2>
+        </div>
+        <div>
+          <h2 class="font-bold text-4xl text-white font-sans">35+</h2>
+          <h2 class="text-white opacity-50 max-w-md font-semibold">
+            API requests per day,peaking at 13,000 requests a second
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col lg:flex-row px-10 sm:items-center justify-between lg:px-52 space-x-6 py-44 lg:mt-60"
+    >
+      <div class="space-y-6 mt-12">
+        <h2 class="text-dark text-2xl font-bold">Ready to get started?</h2>
+        <h2 class="text-light text-base max-w-md font-semibold">
+          Explore <a class="text-primary">Stripe Payments</a>, or create an
+          account instantly and start accepting payments. You can also contact
+          us to design a custom package for your business.
+        </h2>
+        <button class="bg-primary text-white py-1 px-3 rounded-xl">
+          Start now >
+        </button>
+        <a class="text-primary">Contact sales ></a>
+      </div>
+      <div class="space-y-4">
+        <img src="img/icon4.svg" alt="icon" />
+        <h2 class="text-dark font-bold">Always know what you pay</h2>
+        <h2 class="text-light">
+          Integrated per-transaction <br />
+          pricing with no hidden fees.
+        </h2>
+        <a class="text-primary font-bold">Pricing details </a>
+      </div>
+      <div class="space-y-4">
+        <img src="img/icon5.svg" alt="icon" />
+        <h2 class="text-dark font-bold">Always know what you pay</h2>
+        <h2 class="text-light max-w-xs">
+          Integrated per-transaction pricing <br />
+          with no hidden fees.
+        </h2>
+        <a class="text-primary font-bold">Pricing details </a>
+      </div>
+    </div>
+
+    <footer class="relative">
+      <div class="-skew-y-6 bg-gray-100 absolute h-full w-full"></div>
+      <div class="relative bg-gray-100 top-32">
+       
+          <div class="flex flex-col px-10 space-y-6 lg:flex-row justify-between lg:px-56">
+          <div class="flex flex-col lg:justify-between space-y-3">
+            <div>
+              <h2 class="text-dark font-bold">Stripe</h2>
+              <p>united states</p>
+              <p>English(United States)</p>
+            </div>
+
+            <p class="text-dark font-semibold opacity-60">
+              © 2022 Stripe, Inc.
+            </p>
+          </div>
+          
+            <div class="hidden lg:flex flex-col space-y-2">
+              <h2 class="text-dark font-bold">Products</h2>
+              <a class="text-dark font-semibold opacity-60">Atlas</a>
+              <a class="text-dark font-semibold opacity-60">Billing</a>
+              <a class="text-dark font-semibold opacity-60">Capital</a>
+              <a class="text-dark font-semibold opacity-60">Checkout</a>
+              <a class="text-dark font-semibold opacity-60">Climate</a>
+              <a class="text-dark font-semibold opacity-60">Connect</a>
+              <a class="text-dark font-semibold opacity-60">Corporate Card</a>
+              <a class="text-dark font-semibold opacity-60">Data Pipeline</a>
+              <a class="text-dark font-semibold opacity-60">Elements</a>
+              <a class="text-dark font-semibold opacity-60"
+                >Financial Connections</a
+              >
+              <a class="text-dark font-semibold opacity-60"> Identity</a>
+              <a class="text-dark font-semibold opacity-60">Invoicing</a>
+              <a class="text-dark font-semibold opacity-60"> Issuing</a>
+              <a class="text-dark font-semibold opacity-60">Link</a>
+              <a class="text-dark font-semibold opacity-60"> Payments</a>
+              <a class="text-dark font-semibold opacity-60">Payment Links</a>
+              <a class="text-dark font-semibold opacity-60">Payouts</a>
+              <a class="text-dark font-semibold opacity-60">Pricing </a>
+              <a class="text-dark font-semibold opacity-60">Radar </a>
+              <a class="text-dark font-semibold opacity-60"
+                >Revenue Recognition</a
+              >
+              <a class="text-dark font-semibold opacity-60"> Sigma</a>
+              <a class="text-dark font-semibold opacity-60">Tax </a>
+              <a class="text-dark font-semibold opacity-60"> Terminal</a>
+              <a class="text-dark font-semibold opacity-60"> Treasury </a>
+            </div>
+            <div class="hidden lg:flex flex-col">
+              <h2 class="text-dark font-bold">Use Cases</h2>
+              <a class="text-dark font-semibold opacity-60">Atlas</a>
+              <a class="text-dark font-semibold opacity-60">Billing</a>
+              <a class="text-dark font-semibold opacity-60">Capital</a>
+              <a class="text-dark font-semibold opacity-60">Checkout</a>
+              <a class="text-dark font-semibold opacity-60">Climate</a>
+              <a class="text-dark font-semibold opacity-60">Connect</a>
+              <a class="text-dark font-semibold opacity-60">Corporate Card</a>
+              <a class="text-dark font-semibold opacity-60">Data Pipeline</a>
+              <a class="text-dark font-semibold opacity-60">Elements</a>
+              <a class="text-dark font-semibold opacity-60"
+                >Financial Connections</a
+              >
+              <a class="text-dark font-semibold opacity-60"> Identity</a>
+              <a class="text-dark font-semibold opacity-60">Invoicing</a>
+              <a class="text-dark font-semibold opacity-60"> Issuing</a>
+              <a class="text-dark font-semibold opacity-60">Link</a>
+            </div>
+            <div class="flex flex-col">
+              <h2 class="text-dark font-bold">Resources</h2>
+              <a class="text-dark font-semibold opacity-60">Atlas</a>
+              <a class="text-dark font-semibold opacity-60">Billing</a>
+              <a class="text-dark font-semibold opacity-60">Capital</a>
+              <a class="text-dark font-semibold opacity-60">Checkout</a>
+              <a class="text-dark font-semibold opacity-60">Climate</a>
+              <a class="text-dark font-semibold opacity-60">Connect</a>
+              <a class="text-dark font-semibold opacity-60">Corporate Card</a>
+              <a class="text-dark font-semibold opacity-60">Data Pipeline</a>
+              <a class="text-dark font-semibold opacity-60">Elements</a>
+              <a class="text-dark font-semibold opacity-60"
+                >Financial Connections</a
+              >
+              <a class="text-dark font-semibold opacity-60"> Identity</a>
+              <a class="text-dark font-semibold opacity-60">Invoicing</a>
+              <a class="text-dark font-semibold opacity-60"> Issuing</a>
+              <a class="text-dark font-semibold opacity-60">Link</a>
+            </div>
+          
+          <div class="grid grid-cols-2 lg:hidden "> 
+            <div class="flex flex-col space-y-2">
+              <h2 class="text-dark font-bold">Products</h2>
+              <a class="text-dark font-semibold opacity-60">Atlas</a>
+              <a class="text-dark font-semibold opacity-60">Billing</a>
+              <a class="text-dark font-semibold opacity-60">Capital</a>
+              <a class="text-dark font-semibold opacity-60">Checkout</a>
+              <a class="text-dark font-semibold opacity-60">Climate</a>
+              <a class="text-dark font-semibold opacity-60">Connect</a>
+              <a class="text-dark font-semibold opacity-60">Corporate Card</a>
+              <a class="text-dark font-semibold opacity-60">Data Pipeline</a>
+              <a class="text-dark font-semibold opacity-60">Elements</a>
+              <a class="text-dark font-semibold opacity-60"
+                >Financial Connections</a
+              >
+              <a class="text-dark font-semibold opacity-60"> Identity</a>
+              <a class="text-dark font-semibold opacity-60">Invoicing</a>
+              <a class="text-dark font-semibold opacity-60"> Issuing</a>
+              <a class="text-dark font-semibold opacity-60">Link</a>
+              <a class="text-dark font-semibold opacity-60"> Payments</a>
+              <a class="text-dark font-semibold opacity-60">Payment Links</a>
+              <a class="text-dark font-semibold opacity-60">Payouts</a>
+              <a class="text-dark font-semibold opacity-60">Pricing </a>
+              <a class="text-dark font-semibold opacity-60">Radar </a>
+              <a class="text-dark font-semibold opacity-60"
+                >Revenue Recognition</a
+              >
+              <a class="text-dark font-semibold opacity-60"> Sigma</a>
+              <a class="text-dark font-semibold opacity-60">Tax </a>
+              <a class="text-dark font-semibold opacity-60"> Terminal</a>
+              <a class="text-dark font-semibold opacity-60"> Treasury </a>
+            </div>
+            <div class="flex flex-col">
+              <h2 class="text-dark font-bold">Use Cases</h2>
+              <a class="text-dark font-semibold opacity-60">Atlas</a>
+              <a class="text-dark font-semibold opacity-60">Billing</a>
+              <a class="text-dark font-semibold opacity-60">Capital</a>
+              <a class="text-dark font-semibold opacity-60">Checkout</a>
+              <a class="text-dark font-semibold opacity-60">Climate</a>
+              <a class="text-dark font-semibold opacity-60">Connect</a>
+              <a class="text-dark font-semibold opacity-60">Corporate Card</a>
+              <a class="text-dark font-semibold opacity-60">Data Pipeline</a>
+              <a class="text-dark font-semibold opacity-60">Elements</a>
+              <a class="text-dark font-semibold opacity-60"
+                >Financial Connections</a
+              >
+              <a class="text-dark font-semibold opacity-60"> Identity</a>
+              <a class="text-dark font-semibold opacity-60">Invoicing</a>
+              <a class="text-dark font-semibold opacity-60"> Issuing</a>
+              <a class="text-dark font-semibold opacity-60">Link</a>
+            </div>
+            <div class="flex flex-col">
+              <h2 class="text-dark font-bold">Resources</h2>
+              <a class="text-dark font-semibold opacity-60">Atlas</a>
+              <a class="text-dark font-semibold opacity-60">Billing</a>
+              <a class="text-dark font-semibold opacity-60">Capital</a>
+              <a class="text-dark font-semibold opacity-60">Checkout</a>
+              <a class="text-dark font-semibold opacity-60">Climate</a>
+              <a class="text-dark font-semibold opacity-60">Connect</a>
+              <a class="text-dark font-semibold opacity-60">Corporate Card</a>
+              <a class="text-dark font-semibold opacity-60">Data Pipeline</a>
+              <a class="text-dark font-semibold opacity-60">Elements</a>
+              <a class="text-dark font-semibold opacity-60"
+                >Financial Connections</a
+              >
+              <a class="text-dark font-semibold opacity-60"> Identity</a>
+              <a class="text-dark font-semibold opacity-60">Invoicing</a>
+              <a class="text-dark font-semibold opacity-60"> Issuing</a>
+              <a class="text-dark font-semibold opacity-60">Link</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
